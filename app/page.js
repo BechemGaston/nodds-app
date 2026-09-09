@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NotifyButton from "../components/NotifyButton";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
@@ -152,11 +153,9 @@ export default function Home() {
                   <Link href={`/${p.slug}`} className="row-cta">
                     View product →
                   </Link>
-                ) : (
-                  <Link href="#" className="row-cta">
-                    Notify me →
-                  </Link>
-                )}
+     ) : (
+  <NotifyButton productName={p.name} />
+)}
               </div>
             ))}
           </div>

@@ -28,7 +28,7 @@ export default function Section8() {
                 authority, in one instant download.
               </p>
               <div style={{ display: "flex", alignItems: "center" }}>
-                
+                <a
                   href="#buy"
                   className="btn btn-primary-dark"
                   style={{ background: "var(--white)", color: "var(--oil)" }}
@@ -38,32 +38,16 @@ export default function Section8() {
                 <span className="cta-note">Instant download, no account needed</span>
               </div>
             </div>
-            <div className="hero-visual">
-              <div className="ledger-head">
-                <span className="name">What's inside</span>
-                <span className="tag">4 files</span>
-              </div>
-              <div className="ledger-row">
-                <span className="date">01</span>
-                <span>Pre-inspection checklist</span>
-                <span className="status ok">PDF</span>
-              </div>
-              <div className="ledger-row">
-                <span className="date">02</span>
-                <span>HAP payment tracker</span>
-                <span className="status ok">Sheet</span>
-              </div>
-              <div className="ledger-row">
-                <span className="date">03</span>
-                <span>PHA letter templates</span>
-                <span className="status ok">PDF</span>
-              </div>
-              <div className="ledger-row">
-                <span className="date">04</span>
-                <span>When-the-PHA-goes-silent guide</span>
-                <span className="status ok">PDF</span>
-              </div>
-            </div>
+            <img
+  src="/images/section8-cover.png"
+  alt="Section 8 Landlord Kit cover"
+  style={{
+    width: "100%",
+    borderRadius: 12,
+    boxShadow: "0 24px 64px rgba(0,0,0,0.55)",
+    display: "block",
+  }}
+/>
           </div>
         </div>
       </section>
@@ -160,10 +144,13 @@ export default function Section8() {
               <li>PHA letter templates (PDF)</li>
               <li>Action guide for payment delays</li>
             </ul>
-            {/* Replace this href with your real Stripe Payment Link once created */}
-            <a href="https://buy.stripe.com/REPLACE_WITH_YOUR_LINK" className="btn btn-primary-dark">
-              Get the kit — $19
-            </a>
+            
+        <a
+  href="https://buy.stripe.com/REPLACE_WITH_YOUR_LINK"
+  className="btn btn-primary-dark"
+>
+  Get the kit — $19
+</a>
           </div>
         </section>
       </div>

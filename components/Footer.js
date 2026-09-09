@@ -23,7 +23,7 @@ export default function Footer() {
           <div className="footer-col">
             <h4>Company</h4>
             <Link href="/#how">How it works</Link>
-            <Link href="/#">Contact</Link>
+            <Link href="/contact">Contact</Link>
           </div>
         </div>
         <div className="footer-bottom">
