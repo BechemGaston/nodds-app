@@ -42,7 +42,7 @@ export default function ThankYou() {
           >
             Trouble downloading? Email{" "}
             <a href="mailto:support@nodds.com" style={{ textDecoration: "underline" }}>
-              support@nodds.com
+              support@heynodds.com
             </a>{" "}
             and we'll send it directly.
           </p>

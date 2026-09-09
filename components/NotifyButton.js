@@ -8,7 +8,7 @@ export default function NotifyButton({ productName }) {
   async function handleClick(e) {
     e.preventDefault();
     try {
-      await navigator.clipboard.writeText("support@nodds.com");
+      await navigator.clipboard.writeText("support@heynodds.com");
     } catch (err) {
       // clipboard not available, ignore
     }

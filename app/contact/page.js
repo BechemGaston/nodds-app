@@ -26,7 +26,7 @@ export default function Contact() {
             Questions about a product, a purchase, or something else — send us a note and we'll
             get back to you.
           </p>
-          <a href="mailto:support@nodds.com" className="btn btn-primary">
+          <a href="mailto:support@heynodds.com" className="btn btn-primary">
             support@nodds.com
           </a>
         </div>
