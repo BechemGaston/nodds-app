@@ -29,7 +29,7 @@ export default function Section8() {
               </p>
               <div style={{ display: "flex", alignItems: "center" }}>
                 <a
-                  href="#buy"
+                  href="https://whop.com/nodds-37ea/section-8-landlord-kit/"
                   className="btn btn-primary-dark"
                   style={{ background: "var(--white)", color: "var(--oil)" }}
                 >
@@ -146,7 +146,7 @@ export default function Section8() {
             </ul>
             
         <a
-  href="https://buy.stripe.com/REPLACE_WITH_YOUR_LINK"
+  href="https://whop.com/nodds-37ea/section-8-landlord-kit/"
   className="btn btn-primary-dark"
 >
   Get the kit — $19
