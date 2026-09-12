@@ -36,13 +36,13 @@ const products = [
     status: "soon",
     icon: <path d="M12 3 L20 7 L20 13 Q20 19 12 21 Q4 19 4 13 L4 7 Z" />,
   },
-  {
-    slug: null,
-    name: "Contractor Bid Tracker",
-    desc: "Compare bids side by side and catch renovation costs creeping before you approve them.",
-    status: "soon",
-    icon: <path d="M4 21 L4 9 L12 3 L20 9 L20 21 M9 21 L9 14 L15 14 L15 21" />,
-  },
+{
+  slug: "contractor-bid-kit",
+  name: "Contractor Bid Comparison Kit",
+  desc: "Compare bids side by side, spot red flags, and know exactly what to ask before you sign.",
+  status: "live",
+  icon: <path d="M4 21 L4 9 L12 3 L20 9 L20 21 M9 21 L9 14 L15 14 L15 21" />,
+},
   {
     slug: null,
     name: "Medical Bill Case Manager",

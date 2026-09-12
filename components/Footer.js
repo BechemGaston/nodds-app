@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="footer-col">
             <h4>Products</h4>
             <Link href="/section-8">Section 8 Landlord Kit</Link>
-            <Link href="/#products">Section 8 Command Center</Link>
+            <Link href="/contractor-bid-kit">Contractor Bid Comparison Kit</Link>
             <Link href="/#products">See all →</Link>
           </div>
           <div className="footer-col">
