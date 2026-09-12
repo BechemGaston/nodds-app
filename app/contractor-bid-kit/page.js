@@ -29,7 +29,7 @@ export default function ContractorBidKit() {
               </p>
               <div style={{ display: "flex", alignItems: "center" }}>
                 <a
-                  href="#buy"
+                  href="https://whop.com/nodds-37ea/contractor-bid-comparison-kit/"
                   className="btn btn-primary-dark"
                   style={{ background: "var(--white)", color: "var(--oil)" }}
                 >
@@ -38,27 +38,16 @@ export default function ContractorBidKit() {
                 <span className="cta-note">Instant download, no account needed</span>
               </div>
             </div>
-            <div className="hero-visual">
-              <div className="ledger-head">
-                <span className="name">What's inside</span>
-                <span className="tag">3 files</span>
-              </div>
-              <div className="ledger-row">
-                <span className="date">01</span>
-                <span>Bid comparison spreadsheet</span>
-                <span className="status ok">Sheet</span>
-              </div>
-              <div className="ledger-row">
-                <span className="date">02</span>
-                <span>Red flag checklist</span>
-                <span className="status ok">PDF</span>
-              </div>
-              <div className="ledger-row">
-                <span className="date">03</span>
-                <span>Questions-to-ask guide</span>
-                <span className="status ok">PDF</span>
-              </div>
-            </div>
+            <img
+  src="/images/contractor-bid-cover.png"
+  alt="Contractor Bid Comparison Kit cover"
+  style={{
+    width: "100%",
+    borderRadius: 12,
+    boxShadow: "0 24px 64px rgba(0,0,0,0.55)",
+    display: "block",
+  }}
+/>
           </div>
         </div>
       </section>
@@ -145,12 +134,13 @@ export default function ContractorBidKit() {
                           <span style={{ fontSize: 13, color: "var(--ink-soft)" }}>One-time purchase</span>
                           <div className="amount">$15</div>
                           <span className="per">Pay once, yours to keep</span>
-                          <ul>
-                              <li>Bid comparison spreadsheet (Excel &amp; Google Sheets)</li>
-                              <li>Red flag checklist (PDF)</li>
-                              <li>Questions-to-ask guide (PDF)</li>
-                          </ul>
-                          <a href="#buy" className="btn btn-primary-dark">
+                        <ul>
+  <li>Bid comparison spreadsheet (Excel &amp; Google Sheets)</li>
+  <li>Deposit laws &amp; cost benchmarks reference (PDF)</li>
+  <li>Red flag checklist (PDF)</li>
+  <li>Questions-to-ask guide (PDF)</li>
+</ul>
+                          <a href="https://whop.com/nodds-37ea/contractor-bid-comparison-kit/">
                               Get the kit — $15
                           </a>
                       </div>
