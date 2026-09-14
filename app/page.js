@@ -50,6 +50,13 @@ const products = [
     status: "soon",
     icon: <path d="M6 4 L18 4 L18 20 L6 20 Z M9 8 L15 8 M9 12 L15 12 M9 16 L13 16" />,
   },
+  {
+  slug: "clarity-planner",
+  name: "The Clarity Planner",
+  desc: "Debt payoff dates, savings timelines, and spending benchmarks — calculated for you, not guessed.",
+  status: "live",
+  icon: <path d="M4 20 L20 20 M4 20 L4 4 M8 16 L8 10 M12 16 L12 6 M16 16 L16 12" />,
+},
 ];
 
 export default function Home() {
